@@ -1,0 +1,430 @@
+//colores
+$gris1: #343a40
+$gris2: #535c66
+$gris3: #707C8A
+$verde1: #31f55a
+$turquesa1: #00e5e3
+$azul1: #007bff
+$azul2: #006cff
+$azul3: #0037ff
+$azul4: #491AFF
+
+// paginas
+*
+    margin: 0
+    padding: 0
+
+header
+    background-image: linear-gradient(black, $gris1)
+
+nav
+    background-image: linear-gradient($gris1, $gris2)
+
+main
+    background-color: $gris2
+
+footer
+    background-image: linear-gradient($gris2, $gris3)
+
+.tituloRedes
+    color: $verde1
+    text-align: center
+
+// cabecera
+
+// Logo y links
+
+.links
+    font-size: 25px
+    text-decoration: none
+    color: $verde1
+    text-align: justify
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    transition: 0.5s
+
+    &:hover
+        font-size: 30px
+        color: $verde1
+
+div
+    list-style: none
+    width: 100%
+    margin-left: 0
+    margin-right: 0
+
+.menu
+    width: 100%
+    text-decoration: none
+
+    ul
+        width: 100%
+        display: flex
+        justify-content: space-around
+        margin-bottom: 0
+        text-decoration: none
+        color: $verde1
+
+        li
+            display: inline-block
+            text-align: justify
+            text-decoration: none
+
+    span
+        width: 100%
+        display: flex
+        justify-content: space-around
+
+#logo
+    font-size: 600%
+    color: $verde1
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    transition: 0.5s
+
+    &:hover
+        font-size: 650%
+
+// Index
+
+.sliderIndex
+    width: 100%
+    margin-bottom: 0
+    animation: slide 20s infinite ease-in-out
+    ul
+        display: flex
+        padding: 0
+        width: 400%
+        margin-bottom: 0
+        li
+            list-style: none
+            width: 100%
+    img
+        width: 100%
+
+// Portfolio
+
+.portfolio
+    display: grid
+    grid-template-columns: auto auto auto auto
+    grid-template-rows: auto auto auto auto
+    column-gap: 10%
+
+.titulosPortfolio
+    width: 100%
+    display: flex
+    justify-content: center
+
+.titulosProyectos
+    color: $verde1
+
+.titulosEjemplo
+    font-size: 120%
+    transition: 0.5s
+    &:hover
+        font-size: 130%
+        color: $verde1
+
+.linksPortfolio
+    margin: 5%
+
+.fotosStock
+    width: 80%
+    transition: 0.5s
+    &:hover
+        width: 88%
+
+.columna1
+    grid-column: 1
+    grid-row: 1
+    margin-bottom: 15%
+    margin-top: 15%
+
+.columna2
+    grid-column: 2
+    grid-row: 1
+    margin-bottom: 15%
+    margin-top: 15%
+
+.columna3
+    grid-column: 3
+    grid-row: 1
+    margin-bottom: 15%
+    margin-top: 15%
+
+.columna4
+    grid-column: 4
+    grid-row: 1
+    margin-bottom: 15%
+    margin-top: 15%
+
+// Sobre Mi
+
+.infoPersonal
+    display: grid
+    grid-template-columns: auto auto auto auto
+    grid-template-rows: auto auto auto
+    justify-content: flex
+    text-decoration: none
+    color: white
+    font-style: normal
+
+.footerInfoPersonal
+    background-image: url(/img/h.png)
+    background-size: cover
+    background-repeat: no-repeat, repeat
+
+.parrafo1
+    margin-top: 10%
+    margin-bottom: 33%
+    grid-column: 3/4
+    grid-row: 1
+    background-color: black
+
+.parrafo2
+    margin-bottom: 33%
+    grid-column: 1/2
+    grid-row: 2
+    background-color: black
+
+.parrafo3
+    margin-bottom: 33%
+    grid-column: 3/4
+    grid-row: 3
+    background-color: black
+
+.imagenInfoPersonal
+    grid-row: 1 / 3
+    grid-column: 1/2
+
+// Redes Index, Contactos y CV
+
+.columna
+    text-align: center
+
+#linkedin
+    margin-top: 7%
+    transition: 0.5s
+    width: 10%
+    height: 40%
+
+    &:hover
+        width: 20%
+        height: 50%
+
+#instagram
+    margin-top: 7%
+    width: 25%
+    height: 40%
+    transition: 0.5s
+
+    &:hover
+        width: 35%
+        height: 50%
+
+#gmail
+    margin-top: 8%
+    transition: 0.5s
+    width: 15%
+    height: 30%
+
+    &:hover
+        width: 25%
+        height: 40%
+
+#whatsapp
+    margin-top: 7%
+    transition: 0.5s
+    width: 10%
+    height: 35%
+
+    &:hover
+        width: 20%
+        height: 45%
+
+#download
+    width: 30%
+    transition: 0.5s
+
+    &:hover
+        width: 35%
+
+.formulario-contacto
+    width: 100%
+    background-color: $gris2
+
+.form-contact
+    width: 450px
+    padding: 3%
+    margin: auto
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    color: white
+    background-color: $gris1
+
+    h4
+        font-size: 22px
+        margin-bottom: 20px
+        color: $verde1
+
+    .botons
+        width: 100%
+        background: #1f53c5
+        border: none
+        padding: 12px
+        color: white
+        margin: 16px 0
+        font-size: 16px
+
+    .controls
+        width: 100%
+        background: #24303c
+        padding: 12px 20px
+        margin-bottom: 16px
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-size: 18px
+        color: white
+        word-break: keep-all
+
+    .message
+        width: 100%
+        height: 150px
+        padding: 12px 20px
+        box-sizing: border-box
+        border: 2px solid #ccc
+        resize: none
+
+@keyframes slide
+    0%
+        margin-left: 0%
+    20%
+        margin-left: 0%
+    25%
+        margin-left: -100%
+    45%
+        margin-left: -100%
+    50%
+        margin-left: -200%
+    70%
+        margin-left: -200%
+    75%
+        margin-left: -300%
+    100%
+        margin-left: -300%
+
+//Visionado desde celular
+
+@media screen and (max-width: 700px)
+    header
+        background-image: linear-gradient($turquesa1, $azul1)
+
+    .menu ul
+        display: grid
+        grid-template: 1, 4
+        justify-content: flex-start
+
+    .links
+        color: black
+
+        &:hover
+            color: black
+
+    #logo
+        color: black
+
+    nav
+        background-image: linear-gradient($azul1, $azul2)
+
+    main
+        background-color: $azul2
+
+    footer
+        background-image: linear-gradient($azul2, $azul3)
+
+    .footerInfoPersonal
+        background-image: linear-gradient($azul2, $azul3)
+
+    .tituloRedes
+        color: black
+        font-weight: bond
+        text-align: center
+
+    .parrafo1
+        margin-bottom: 10%
+        grid-column: all
+        grid-row: 1
+        background-color: $azul3
+        color: white
+
+    .parrafo2
+        margin-bottom: 10%
+        grid-column: all
+        grid-row: 2
+        background-color: $azul3
+        color: white
+
+    .parrafo3
+        margin-bottom: 10%
+        grid-column: all
+        grid-row: 3
+        background-color: $azul3
+        color: white
+
+    .formulario-contacto
+        width: 100%
+        background-color: $azul2
+
+    .form-contact
+        width: 100%
+        background-color: $azul4
+
+        h4
+            color: black
+            font-weight: bold
+
+        .botons
+            background: black
+
+        .controls
+            background: $azul3
+
+    ::placeholder
+        color: black
+
+    .portfolio
+        width: 100%
+        display: grid
+        grid-column: 1
+        grid-template-columns: 80%
+        grid-template-rows: auto auto auto auto
+        place-content: center
+
+    .columna1
+        grid-row: 1
+        grid-column: 1
+        margin-bottom: 8%
+        margin-top: 8%
+
+    .columna2
+        grid-row: 2
+        grid-column: 1
+        margin-bottom: 8%
+        margin-top: 8%
+
+    .columna3
+        grid-row: 3
+        grid-column: 1
+        margin-bottom: 8%
+        margin-top: 8%
+
+    .columna4
+        grid-row: 4
+        grid-column: 1
+        margin-bottom: 8%
+        margin-top: 8%
+
+    .titulosProyectos
+        color: black
+
+    .titulosEjemplo
+        font-weight: bond
+        &:hover
+            color: black
+            font-weight: bond

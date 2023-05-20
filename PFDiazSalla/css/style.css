@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(black, #343a40);
+}
+
+nav {
+  background-image: linear-gradient(#343a40, #535c66);
+}
+
+main {
+  background-color: #535c66;
+}
+
+footer {
+  background-image: linear-gradient(#535c66, #707C8A);
+}
+
+.tituloRedes {
+  color: #31f55a;
+  text-align: center;
+}
+
+.links {
+  font-size: 25px;
+  text-decoration: none;
+  color: #31f55a;
+  text-align: justify;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+}
+.links:hover {
+  font-size: 30px;
+  color: #31f55a;
+}
+
+div {
+  list-style: none;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.menu {
+  width: 100%;
+  text-decoration: none;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: #31f55a;
+}
+.menu ul li {
+  display: inline-block;
+  text-align: justify;
+  text-decoration: none;
+}
+.menu span {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  font-size: 600%;
+  color: #31f55a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.5s;
+}
+#logo:hover {
+  font-size: 650%;
+}
+
+.sliderIndex {
+  width: 100%;
+  margin-bottom: 0;
+  animation: slide 20s infinite ease-in-out;
+}
+.sliderIndex ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  margin-bottom: 0;
+}
+.sliderIndex ul li {
+  list-style: none;
+  width: 100%;
+}
+.sliderIndex img {
+  width: 100%;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+}
+
+.titulosPortfolio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulosProyectos {
+  color: #31f55a;
+}
+
+.titulosEjemplo {
+  font-size: 120%;
+  transition: 0.5s;
+}
+.titulosEjemplo:hover {
+  font-size: 130%;
+  color: #31f55a;
+}
+
+.linksPortfolio {
+  margin: 5%;
+}
+
+.fotosStock {
+  width: 80%;
+  transition: 0.5s;
+}
+.fotosStock:hover {
+  width: 88%;
+}
+
+.columna1 {
+  grid-column: 1;
+  grid-row: 1;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.columna2 {
+  grid-column: 2;
+  grid-row: 1;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.columna3 {
+  grid-column: 3;
+  grid-row: 1;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.columna4 {
+  grid-column: 4;
+  grid-row: 1;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.infoPersonal {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: flex;
+  text-decoration: none;
+  color: white;
+  font-style: normal;
+}
+
+.footerInfoPersonal {
+  background-image: url(/img/h.png);
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+}
+
+.parrafo1 {
+  margin-top: 10%;
+  margin-bottom: 33%;
+  grid-column: 3/4;
+  grid-row: 1;
+  background-color: black;
+}
+
+.parrafo2 {
+  margin-bottom: 33%;
+  grid-column: 1/2;
+  grid-row: 2;
+  background-color: black;
+}
+
+.parrafo3 {
+  margin-bottom: 33%;
+  grid-column: 3/4;
+  grid-row: 3;
+  background-color: black;
+}
+
+.imagenInfoPersonal {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.columna {
+  text-align: center;
+}
+
+#linkedin {
+  margin-top: 7%;
+  transition: 0.5s;
+  width: 10%;
+  height: 40%;
+}
+#linkedin:hover {
+  width: 20%;
+  height: 50%;
+}
+
+#instagram {
+  margin-top: 7%;
+  width: 25%;
+  height: 40%;
+  transition: 0.5s;
+}
+#instagram:hover {
+  width: 35%;
+  height: 50%;
+}
+
+#gmail {
+  margin-top: 8%;
+  transition: 0.5s;
+  width: 15%;
+  height: 30%;
+}
+#gmail:hover {
+  width: 25%;
+  height: 40%;
+}
+
+#whatsapp {
+  margin-top: 7%;
+  transition: 0.5s;
+  width: 10%;
+  height: 35%;
+}
+#whatsapp:hover {
+  width: 20%;
+  height: 45%;
+}
+
+#download {
+  width: 30%;
+  transition: 0.5s;
+}
+#download:hover {
+  width: 35%;
+}
+
+.formulario-contacto {
+  width: 100%;
+  background-color: #535c66;
+}
+
+.form-contact {
+  width: 450px;
+  padding: 3%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: #343a40;
+}
+.form-contact h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #31f55a;
+}
+.form-contact .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.form-contact .controls {
+  width: 100%;
+  background: #24303c;
+  padding: 12px 20px;
+  margin-bottom: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: white;
+  word-break: keep-all;
+}
+.form-contact .message {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  resize: none;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    background-image: linear-gradient(#00e5e3, #007bff);
+  }
+  .menu ul {
+    display: grid;
+    grid-template: 1, 4;
+    justify-content: flex-start;
+  }
+  .links {
+    color: black;
+  }
+  .links:hover {
+    color: black;
+  }
+  #logo {
+    color: black;
+  }
+  nav {
+    background-image: linear-gradient(#007bff, #006cff);
+  }
+  main {
+    background-color: #006cff;
+  }
+  footer {
+    background-image: linear-gradient(#006cff, #0037ff);
+  }
+  .footerInfoPersonal {
+    background-image: linear-gradient(#006cff, #0037ff);
+  }
+  .tituloRedes {
+    color: black;
+    font-weight: bond;
+    text-align: center;
+  }
+  .parrafo1 {
+    margin-bottom: 10%;
+    grid-column: all;
+    grid-row: 1;
+    background-color: #0037ff;
+    color: white;
+  }
+  .parrafo2 {
+    margin-bottom: 10%;
+    grid-column: all;
+    grid-row: 2;
+    background-color: #0037ff;
+    color: white;
+  }
+  .parrafo3 {
+    margin-bottom: 10%;
+    grid-column: all;
+    grid-row: 3;
+    background-color: #0037ff;
+    color: white;
+  }
+  .formulario-contacto {
+    width: 100%;
+    background-color: #006cff;
+  }
+  .form-contact {
+    width: 100%;
+    background-color: #491AFF;
+  }
+  .form-contact h4 {
+    color: black;
+    font-weight: bold;
+  }
+  .form-contact .botons {
+    background: black;
+  }
+  .form-contact .controls {
+    background: #0037ff;
+  }
+  ::-moz-placeholder {
+    color: black;
+  }
+  ::placeholder {
+    color: black;
+  }
+  .portfolio {
+    width: 100%;
+    display: grid;
+    grid-column: 1;
+    grid-template-columns: 80%;
+    grid-template-rows: auto auto auto auto;
+    place-content: center;
+  }
+  .columna1 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .columna2 {
+    grid-row: 2;
+    grid-column: 1;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .columna3 {
+    grid-row: 3;
+    grid-column: 1;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .columna4 {
+    grid-row: 4;
+    grid-column: 1;
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+  .titulosProyectos {
+    color: black;
+  }
+  .titulosEjemplo {
+    font-weight: bond;
+  }
+  .titulosEjemplo:hover {
+    color: black;
+    font-weight: bond;
+  }
+}/*# sourceMappingURL=style.css.map */
